@@ -17,4 +17,25 @@ Este repositorio contiene un script en Python para convertir archivos de audio e
    git clone https://github.com/AlexanderNeils/AudioToText.git
 2. Instala las dependencias:
 pip install pydub SpeechRecognition
-Ejecuta el script proporcionando la ruta del archivo de audio.
+Ejecuta el script proporcionando la ruta del archivo de audio ()
+
+## Configurar el repositorio localmente y subir los cambios
+1. Abre tu terminal o línea de comandos.
+2. Clona el repositorio en tu máquina local:
+
+git clone https://github.com/AlexanderNeils/AudioToText.git
+
+3. Navega al directorio del repositorio:
+cd AudioToText
+
+4. Crea el archivo README.md si no lo hiciste en GitHub:
+echo "# AudioToText" >> README.md
+
+5. Agrega y confirma los cambios:
+git add README.md
+git commit -m "first commit"
+
+6. Configura la rama principal y sube los cambios:
+git branch -M main
+git remote add origin https://github.com/AlexanderNeils/AudioToText.git
+git push -u origin main
