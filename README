@@ -1,0 +1,20 @@
+# AudioToText
+
+Este repositorio contiene un script en Python para convertir archivos de audio en texto utilizando la biblioteca `SpeechRecognition`. 
+
+## Funcionalidades:
+- Conversión de archivos de audio a formato WAV utilizando `pydub`.
+- Transcripción de audio a texto utilizando el servicio de reconocimiento de voz de Google.
+- Manejo de excepciones para garantizar la robustez del proceso.
+
+## Requisitos:
+- Python 3.x
+- Bibliotecas: `pydub`, `SpeechRecognition`
+
+## Uso:
+1. Clona el repositorio: 
+   ```sh
+   git clone https://github.com/AlexanderNeils/AudioToText.git
+2. Instala las dependencias:
+pip install pydub SpeechRecognition
+Ejecuta el script proporcionando la ruta del archivo de audio.
